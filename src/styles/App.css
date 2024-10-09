@@ -1,16 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+#main {
+    padding: 10px;
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    box-sizing: border-box;
+    width: 99px;
+    padding-inline: 2px;
+    height: 40px;
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.bg-pink{
-	background-color:pink;
+.bg-pink {
+    background-color: pink;
 }
